@@ -1,0 +1,72 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    text-align: center;
+    overflow: visible;
+}
+
+.todos li.completed{
+    text-decoration: line-through;
+}
+
+
+.todos  li{
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+    max-width: 200px;
+
+}
+
+.menu{
+    background: dimgray;
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding: 1.4rem;
+ transform :translate(-102%);
+}
+
+
+.menu2{
+background: dimgray;
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding: 1.4rem;
+ 
+}
+
+.menu2 li{
+    list-style: none;
+}
+.menu p{
+display: flex;
+justify-items: right;
+}
+
+
+.menuclosed{
+    background: dimgray;
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding: 1.4rem;
+}
+
+.menu li{
+    list-style: none;
+}
+
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1.4rem;
+    z-index: 2;   
+}
